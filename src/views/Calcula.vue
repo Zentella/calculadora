@@ -13,16 +13,17 @@
           <!-- <v-icon dark> mdi-function </v-icon> -->
         </v-btn>
 
-        <v-btn @click="c" class="mx-2" fab dark small color="orange darken-2">
-          <v-icon dark> mdi-alpha-c </v-icon>
+        <v-btn class="mx-2" fab dark small color="orange darken-2">
+          <!-- <v-icon dark> mdi-alpha-c </v-icon> -->
         </v-btn>
 
         <v-btn class="mx-2" fab dark small color="orange darken-2">
           <!-- <v-icon dark> mdi-code-less-than </v-icon> -->
         </v-btn>
 
-        <v-btn class="mx-2" fab dark small color="orange darken-2">
+        <v-btn @click="c" class="mx-2" fab dark small color="orange darken-2">
           <!-- <v-icon dark> mdi-percent-outline </v-icon> -->
+          <v-icon dark> mdi-alpha-c </v-icon>
         </v-btn>
       </v-col>
     </v-row>
@@ -386,5 +387,6 @@ export default {
 }
 .fondo {
   background: grey;
+  padding-bottom: 80%;
 }
 </style>
