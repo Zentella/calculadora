@@ -1,12 +1,18 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Calcula from '../views/Calcula.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'Calcula',
+    component: Calcula
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home
   },
